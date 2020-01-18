@@ -1,0 +1,28 @@
+.page-home .p-tabview .p-tabview-panels {
+  padding: 0;
+  border: none;
+}
+
+.page-home .p-dataview-header {
+  display: none;
+}
+
+.page-home .p-dataview-content {
+  padding: 0 1em !important;
+}
+
+.page-home .p-dataview-content .p-grid div {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted lightgray;
+}
+
+.page-home .p-dataview-content .p-grid:last-child {
+  border-bottom: none;
+}
+
+.page-home .p-dataview-content .p-grid img {
+  height: 80%;
+  margin-right: 16px;
+}
