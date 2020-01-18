@@ -23,10 +23,10 @@ export default class HomePage extends Component {
     return (
       <div class="page page-home">
         <section>
-          <h2>Try me!</h2>
           <p>An UI web application that retrieves and displays the user repositories and organisations in Github.</p>
         </section>
         <section>
+          <h2>Try me!</h2>
           <p>
             Show user repositories and organisations by @<InputText
               value={this.state.username}
